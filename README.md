@@ -2,5 +2,5 @@
 
 Find all info:
 ```
-ldapsearch -LLL -x -H ldap://denodo-host:389 | less
+ldapsearch -LLL -x -H ldap://<hostname:port> | less
 ```
