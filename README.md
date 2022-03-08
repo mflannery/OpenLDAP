@@ -1,5 +1,10 @@
 # OpenLDAP tips and tricks
 
+First install openldap-clients on a linux server that can access the LDAP server via the network.
+```
+sudo dnf install openldap-clients
+```
+
 hostname:port below is something like denodo-host:389 or 192.168.56.102:389
 
 # Find all info:
